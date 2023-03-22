@@ -18,7 +18,7 @@ function handleProfileSignup() {
 				str += val;
 			}
 		})
-		console.log(str.replace(/\s$/, ""))
+		console.log(str.replace(/\s$/, "").length)
 	}).catch((err) => {
 	  console.log("Signup system offline")
 	})
