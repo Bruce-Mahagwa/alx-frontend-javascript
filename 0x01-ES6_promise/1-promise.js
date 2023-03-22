@@ -4,7 +4,7 @@ function getFullResponseFromAPI(success) {
       resolve({status: 200, body: "Success"})
     }
     else {
-      reject({Error: "The Fake API is not working currently"})
+      reject(Error("The Fake API is not working currently"))
   }
 })
 }
